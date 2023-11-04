@@ -1,46 +1,98 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.contenedor{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto; /* para centrar horizontalmente el contenedor del contenedor padre */
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgb(206, 206, 206);
+    margin: 0px;
+}
+
 h2{
-    color: blue;
+    font-size: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Lobster';
+    font-size: 5rem;
+    color: white;
+    margin-left: 3rem;
+}
+
+
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    
+    background-image: url('../imagenes/classical-guitar-player-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 section{
-    border-color: #416a96;
-    border-style: solid;
-    border-width: 2px;
-    width: 1000px;
-    margin:20px 20px 100px 50px;
-    padding: 10px 10px 10px 10px;
+    margin-bottom: 4rem;
+    
+}
+hr{
+    margin-bottom: 4rem;
 }
 
-article{
-    background-color: rgb(164, 221, 188);
+.bandaPrincipal{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
 }
 
-#killers{
-    background-color: rgb(134, 29, 29);
-
+.video{
+    width: 800rem;
+    height: 40rem;
 }
 
-.secLat{
-    width: 250px;
-    position: absolute;
-    top: 0;
-    border-color: aqua 1px solid;
+.contenedorInfo{
+    display: block;
+    
+    
+}
+.sec1{
+    display: flex;
+    gap: 2rem;
 }
 
-#secDer{
-    right: 0;
+.banda{
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-#header{
-    background-color: grey;
-    width: 100%;
-    height: 200px;
-    position: relative;
+.imagen{
+    width: 300px;
+    height: 300px;
 }
 
-header>div{
-    height: 180px;
+.imagenEnc{
+    margin: 5rem;
 }
-header img{
-    height: 100px;
+
+.contBandas{
+    display: flex;
+    gap: 6rem;
 }
