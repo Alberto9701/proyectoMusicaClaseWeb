@@ -107,6 +107,16 @@ hr{
     gap: 6rem;
 }
 
+.piePagina{
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 

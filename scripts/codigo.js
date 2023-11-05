@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(function() {
         imagen.classList.add("show");
       }, delay);
-      delay += 600; // Ajusta la cantidad de milisegundos de retraso entre las imágenes
+      delay += 300; // Ajusta la cantidad de milisegundos de retraso entre las imágenes
     });
   });
