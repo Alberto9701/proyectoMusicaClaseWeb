@@ -14,6 +14,8 @@ body{
     font-size: 1.6rem;
     background-color: rgb(206, 206, 206);
     margin: 0px;
+
+
 }
 
 h2{
@@ -81,18 +83,31 @@ hr{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .imagen{
     width: 300px;
     height: 300px;
+    
 }
 
-.imagenEnc{
-    margin: 5rem;
+.fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
+  
+.fade.show {
+    opacity: 1;
+}
+
 
 .contBandas{
     display: flex;
     gap: 6rem;
 }
+
+
+
+
+
